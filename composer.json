@@ -1,0 +1,29 @@
+{
+  "name": "dyonis/yii2-payment-stripe",
+  "version": "1.0",
+  "description": "Yii2 Payment provider for Stripe",
+  "type": "library",
+  "keywords": ["yii2","extension","stripe", "payment"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denys Shpuhanych"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "php": ">=7.4",
+    "yiisoft/yii2": "^2.0.0",
+    "stripe/stripe-php": "^7.107"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "dyonis\\yii2\\payment\\providers\\stripe\\": "src"
+    }
+  }
+}
